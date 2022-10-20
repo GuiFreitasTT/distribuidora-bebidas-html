@@ -30,7 +30,7 @@ body {
     font-size: 20px;
     transition: 0.2s;
 }
-
+/*MENU */
 .menu {
     margin-right: 10px;
     font-size: 17px;
@@ -51,7 +51,9 @@ body {
     cursor: pointer;
     transition: 1s;
 }
+/*FIM MENU */
 
+/* BACKGROUND */
 .background{
     
     background-image: url(img/bebida-back.jpg);
@@ -80,6 +82,7 @@ body {
     width: 100%;
     
 }
+/* FIM BACKGROUND */
 
 .texto1{
     text-align: center;
