@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    color: aliceblue;
+    padding-left: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+    width: 100%;
+}
+
+#header {
+    background-color: #000000dc;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+.menu {
+    margin-right: 10px;
+    font-size: 17px;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    color: white;
+    padding: 10px 20px;
+}
+
+.menu ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.439);
+    color: black;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.background{
+    
+    background-image: url(img/bebida-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    
+}
+
+.backgroundois{
+    
+    background-image: url(img/bebidasdois.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    
+}
+.backgroundtres{
+
+   background-image: url(img/back-vinho.jpg);
+   background-size: cover;
+    background-repeat: no-repeat;
+    height: 120vh;
+    width: 100%;
+    
+}
+
+.texto1{
+    text-align: center;
+    padding-top: 400px;
+    font-size: 50px;
+}
+
+    /* link que ainda não foi acessado */
+a {
+    color: #000;
+ }
+ /* link que foi visitado */
+ a:visited {
+     color: rgb(207, 207, 207);
+ }
+ /* quando o ponteiro do mouse passa no link */
+ a:hover {
+     color: rgb(0, 0, 0);
+     transition: 0.5s;
+ }
+ /* quando o link for selecionado */
+ a:active {
+     color: rgb(255, 255, 255);
+ }
+
+
+ footer{
+    background-color: hsl(0, 0%, 0%);
+    color: #ddd;
+    width: 100%;
+    height:30px;
+    text-align: center;
+    display: inline-block;
+    padding-top: 15px;
+ }
+ 
