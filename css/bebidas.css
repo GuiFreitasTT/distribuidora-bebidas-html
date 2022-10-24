@@ -69,7 +69,7 @@ h1{
 
 .coluna{
   margin-right: 20px;
-  border-radius: 80px;
+  border-radius: 120px;
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right:42px;
@@ -112,8 +112,9 @@ h1{
   }
 
 .pular{
- height: 47px;
+ height: 20px;
   }
+  
 
   /* personalização botão */
   .styled {

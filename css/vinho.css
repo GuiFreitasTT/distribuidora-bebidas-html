@@ -68,17 +68,17 @@ h1{
 
 
 .coluna{
-  margin-right: 20px;
-  border-radius: 80px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-right:42px;
-  padding-left: 40px;
-  float: left;
-  width: 300px;
-  background-color: rgba(211, 209, 209, 0.545);
-  text-align: center;
-  justify-content: center;
+    margin-right: 20px;
+    border-radius: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right:42px;
+    padding-left: 40px;
+    float: left;
+    width: 300px;
+    background-color: rgba(211, 209, 209, 0.545);
+    text-align: center;
+    justify-content: center;
   }
 
   .row::after {
@@ -136,12 +136,12 @@ h1{
 }
 
 .styled:hover {
-    background-color: rgba(233, 188, 40, 0.748);
+    background-color:  rgb(35, 35, 49);
 }
 
 .styled:active {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
+                inset 2px 2px 3px rgba(0, 0, 0, .6)
 }
 
 .row{
