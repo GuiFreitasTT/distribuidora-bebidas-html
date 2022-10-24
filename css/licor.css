@@ -71,7 +71,7 @@ h1{
   margin-right: 20px;
   border-radius: 80px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom:  20px;
   padding-right:42px;
   padding-left: 40px;
   float: left;
@@ -117,33 +117,45 @@ h1{
 
   /* personalização botão */
   .styled {
-    border: 0;
+    width: 120px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px;
     line-height: 2;
     margin-top: 5px;
     padding-top: 2px;
     font-size: 1rem;
     text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 4px;
-    background-color: rgb(82, 82, 82);
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
+    color: blue;
+    background-color: rgb(182, 180, 180);
+    
+    
 }
 
 .styled:hover {
-    background-color: rgba(233, 188, 40, 0.748);
+  background-color: blue;
+  color: aliceblue;
 }
 
 .styled:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
+   background-color: blue;
 }
 
 .row{
   margin-left: 3vh;
+}
+
+footer{
+  background-color: hsl(0, 0%, 0%);
+  color: #ddd;
+  height: 30px;
+  clear: both;
+  bottom: 0;
+  left: 0;
+  padding-top: 10px;
+}
+
+h4{
+  font-size: 15px;
+  text-align: center;
 }

@@ -20,7 +20,7 @@ body {
 }
 
 #header {
-    background-color: #000000dc;
+    background-color: #000000ce;
     height: 200px;
     width: 100%;
     display: flex;
@@ -64,6 +64,9 @@ body {
     
 }
 
+
+
+
 .backgroundois{
     
     background-image: url(/img/bebidasdois.jpg);
@@ -79,16 +82,18 @@ body {
    background-size: cover;
     background-repeat: no-repeat;
     height: 120vh;
-    width: 100%;
-    
+    width: 100%;   
 }
+
 /* FIM BACKGROUND */
 
 .texto1{
     text-align: center;
     padding-top: 400px;
     font-size: 50px;
+    color: white;
 }
+
 
     /* link que ainda não foi acessado */
 a {
@@ -96,12 +101,14 @@ a {
  }
  /* link que foi visitado */
  a:visited {
-     color: rgb(207, 207, 207);
+     color: rgb(255, 255, 255);
  }
  /* quando o ponteiro do mouse passa no link */
  a:hover {
      color: rgb(0, 0, 0);
      transition: 0.5s;
+     
+     
  }
  /* quando o link for selecionado */
  a:active {
