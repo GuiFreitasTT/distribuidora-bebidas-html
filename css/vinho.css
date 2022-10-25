@@ -44,10 +44,10 @@ h1{
 }
 
 .menu ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.439);
-    color: black;
-    cursor: pointer;
-    transition: 1s;
+  background-color: rgba(134, 134, 134, 0.719);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  transition: 0.5s;
 }
 
 .texto{

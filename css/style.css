@@ -46,10 +46,10 @@ body {
 }
 
 .menu ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.439);
-    color: black;
+    background-color: rgba(134, 134, 134, 0.719);
+    color: rgb(255, 255, 255);
     cursor: pointer;
-    transition: 1s;
+    transition: 0.5s;
 }
 /*FIM MENU */
 
@@ -63,8 +63,6 @@ body {
     width: 100%;
     
 }
-
-
 
 
 .backgroundois{
