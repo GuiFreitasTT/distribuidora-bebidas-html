@@ -149,11 +149,24 @@ h1{
 footer{
   background-color: hsl(0, 0%, 0%);
   color: #ddd;
-  height: 30px;
+  height: 100px;
   clear: both;
   bottom: 0;
   left: 0;
   padding-top: 10px;
+}
+
+
+footer p{
+  text-align: center;
+    font-size: 16px;
+    color: rgb(237, 237, 241);
+}
+
+footer h4{
+  font-size: 15px;
+  text-align: center;
+  color: rgb(246, 246, 246);
 }
 
 h4{
@@ -161,3 +174,17 @@ h4{
   text-align: center;
 }
 
+.sobrenos{
+  background-color: hsl(0, 0%, 13%);
+    color: #ddd;
+  height: 100px;
+  padding-top: 20px;
+  clear: both;
+  bottom: 0;
+  left: 0;
+}
+
+.sobrenos p{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
